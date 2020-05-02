@@ -1,0 +1,29 @@
+.grid{
+    display: grid;
+    grid-template-columns: min-content 600px;
+}
+
+.editor{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.head{
+    width:800px;
+    background-color: rgb(197, 194, 194);
+}
+.head label{
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+.head select{
+   margin:15px;
+   padding: 0px 60px;
+   float: right;
+   border:1px solid rgb(155, 151, 151)
+}
+
+.output{
+    margin-left: 100px;
+}
